@@ -11,7 +11,7 @@ public class RestAPI {
     @GetMapping
     public Object get() {
         HashMap m = new HashMap();
-        m.put("message", "Hello ");
+        m.put("message", "Hello guy");
         return m;
     }
 }
